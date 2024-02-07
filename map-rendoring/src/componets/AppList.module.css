@@ -1,0 +1,9 @@
+.btnBuy {
+  float: inline-end;
+}
+
+.inputTag {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}

@@ -1,0 +1,17 @@
+input {
+  width: 100%;
+}
+
+.todo-container {
+  width: 25rem;
+  margin: 0 auto;
+}
+
+
+.row-container {
+  margin: 10px 5px;
+}
+
+.btn-container {
+  min-width: 80px;
+}

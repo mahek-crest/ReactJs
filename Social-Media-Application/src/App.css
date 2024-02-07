@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+}
+.content {
+  width: 100%;
+}
+.post-card {
+  margin: 25px 50px;
+}
+.tag-badge {
+  margin: 0 2px;
+}
+.reactions {
+  margin: 10px 0 0 0;
+}
+.form-container {
+  max-width: 300px;
+  margin: 10rem auto;
+}
+.welcome-message {
+  margin: 10rem;
+}
+.container-footer {
+  /* position: absolute; */
+  width: 500px;
+  margin: 0 auto;
+  margin-left: 34%;
+  /* bottom: 0; */
+}
+.spinner {
+  margin: 200px 0;
+}
