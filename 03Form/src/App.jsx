@@ -18,8 +18,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("submit was clicked");
-    setSubmitted(true); // Set the submitted state to true
+    setSubmitted(true);
   };
 
   return (

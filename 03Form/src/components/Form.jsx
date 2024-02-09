@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Display from "./Display";
 
 const Form = ({
@@ -8,6 +9,7 @@ const Form = ({
   onFormSubmit,
   submitted,
 }) => {
+  // console.log(submitted);
   return (
     <>
       <form onSubmit={onFormSubmit}>

@@ -3,7 +3,7 @@ const Display = ({ username, password, submitted }) => {
   return (
     <>
       <p>Username : {submitted ? username : ""}</p>
-      <p>Password : {password}</p>
+      <p>Password : {submitted ? password : ""}</p>
     </>
   );
 };
