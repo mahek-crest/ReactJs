@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: #999;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #999;
+}
+.content {
+  margin: 200px;
+}
