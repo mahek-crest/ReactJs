@@ -1,0 +1,17 @@
+1. Create a Redux Store
+  . src/app/store.js
+  . import configureStore
+
+2.Provide the Redux Store to React
+  . Once the store is created, we can make it available to our React components by putting a React Redux <Provider> around our application in src/index.js.
+  . Redux store we just created, put a <Provider> around your <App>, and pass the store as a prop
+   <Provider store={store}>
+
+3. Create a Redux State Slice
+  . Add a new file named src/features/counter/counterSlice.js. In that file, import the createSlice API from Redux Toolkit.
+  . export them properly -- each individualy 
+  . export slice reducer
+
+4. Add Slice Reducers to the Store
+
+5. Use Redux State and Actions in React Components
