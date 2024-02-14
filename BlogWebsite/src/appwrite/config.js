@@ -30,7 +30,7 @@ export class Service {
         title, content, featuredImage, status
       })
     } catch (error) {
-      console.log('Config Service :: updatePost ::  ', error);
+      console.log('Config Service :: updatePost ::', error);
     }
   }
   // ---------------------
