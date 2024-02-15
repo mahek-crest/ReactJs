@@ -2,7 +2,7 @@ import conf from "../conf/conf";
 import { Client, ID, Storage } from "appwrite";
 
 
-export class fileService {
+export class FileService {
   client = new Client();
   bucket;
 
@@ -43,5 +43,5 @@ export class fileService {
   }
 }
 
-const fileService = new fileService()
+const fileService = new FileService()
 export default fileService

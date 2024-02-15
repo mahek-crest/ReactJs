@@ -6,8 +6,10 @@ import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import Logo from "./Logo";
 import Input from "./Input";
+import Button from "./Button";
 
-const Login = () => {
+// Named export
+export const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { register, handleSubmit } = useForm();
@@ -83,5 +85,3 @@ const Login = () => {
     </div>
   );
 };
-
-export default Login;

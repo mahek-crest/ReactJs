@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import service from "../../appwrite/config";
 import { useCallback, useEffect } from "react";
+import Input from "../Input";
+import RTE from "../RTE";
+import SelectField from "../SelectField";
+import Button from "../Button";
 
 const PostForm = ({ post }) => {
   const { register, handleSubmit, watch, setValue, control, getValues } =
@@ -17,7 +21,8 @@ const PostForm = ({ post }) => {
     });
 
   const navigate = useNavigate();
-  const userData = useSelector((state) => state.user.userData);
+  const userData = useSelector((state) => state.auth.userData);
+
   const submit = async (data) => {
     if (post) {
       const file = data.image[0] ? fileService.uploadFile(data.image[0]) : null;
@@ -112,7 +117,7 @@ const PostForm = ({ post }) => {
             />
           </div>
         )}
-        <Select
+        <SelectField
           options={["active", "inactive"]}
           label="Status"
           className="mb-4"

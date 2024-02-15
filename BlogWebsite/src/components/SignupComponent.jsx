@@ -3,9 +3,12 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import authService from "../appwrite/auth";
-import { Input } from "postcss";
+import Input from "./Input";
+import { Link } from "react-router-dom";
+import Button from "../components/Button";
+import Logo from "../components/Logo";
 
-const Signup = () => {
+const SignupComponent = () => {
   const navigate = useNavigate();
   const [error, setError] = useState("");
   const dispatch = useDispatch();
@@ -93,4 +96,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignupComponent;
