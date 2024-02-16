@@ -6,6 +6,10 @@ import DisplayMessage from "./comoponents/DisplayMessage";
 function App() {
   const [message, setMessage] = useState("heelo this is a state variable");
 
+  const handleChnage = () => {
+    setMessage("this is from state and on click")
+  }
+
   return (
     <>
       <h1>heello</h1>

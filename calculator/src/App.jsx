@@ -16,7 +16,6 @@ function App() {
       setCalValue(newDisplayValue);
     }
   };
-
   return (
     <div className={styles.calculator}>
       <Display displayValue={calValue} />

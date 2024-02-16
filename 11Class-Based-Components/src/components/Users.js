@@ -21,8 +21,6 @@ class Users extends Component {
     this.setState((curSate) => {
       return { showUsers: !curSate.showUsers }
     })
-
-
   }
 
   render() {
