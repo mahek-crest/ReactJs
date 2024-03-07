@@ -37,7 +37,7 @@ function App() {
         handleUsername={handleUsername}
         onFormSubmit={handleFormSubmit}
       />
-      {submit ? "true" : "false"}
+      {submit ? "Not Submitted" : "Submitted"}
     </>
   );
 }
