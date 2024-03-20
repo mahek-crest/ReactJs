@@ -12,7 +12,7 @@ const WeatherCard = ({ data }) => {
           Visibility : {weather ? weather.visibility : null}
         </div>
         <div className="text-gray-700 text-base">
-          Temperature : {weather ? weather.main.temp : null}&deg;F
+          Temperature : {weather ? weather.main.temp : null} &deg;F
         </div>
       </div>
     </div>
