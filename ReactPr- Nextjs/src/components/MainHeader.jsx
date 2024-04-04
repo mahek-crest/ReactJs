@@ -3,9 +3,6 @@ import { MdPostAdd, MdMessage } from "react-icons/md";
 import classes from "./MainHeader.module.css";
 
 function MainHeader({ onCreatePost }) {
-  function onCreatePost() {
-    console.log("button clicked");
-  }
   return (
     <header className={classes.header}>
       <h1 className={classes.logo}>
@@ -13,7 +10,7 @@ function MainHeader({ onCreatePost }) {
         React Poster
       </h1>
       <p>
-        <button className={classes.button} onClick={onCreatePost()}>
+        <button className={classes.button} onClick={onCreatePost}>
           <MdPostAdd size={18} />
           New Post
         </button>
